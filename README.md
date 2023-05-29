@@ -13,7 +13,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -25,12 +24,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop view
+![Desktop view](assets/images/Desktop.PNG)
+
+Mobile view
+![Mobile view](assets/images/Mobile.PNG)
 
 ### Links
 
 - Solution URL: [Github](https://github.com/MelakuAlehegn/results-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live url](https://melakualehegn.github.io/results-summary-component/)
 
 ## My process
 
@@ -50,8 +53,7 @@ Here is an empty div I have put on my HTML file in order to load json file into 
 
 ```html
 <div class="summary-card" id="summary">
-
-      </div>
+</div>
 ```
 
 Here is the code snippet for How I loaded json file and rendered it to HTML.
