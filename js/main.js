@@ -7,7 +7,7 @@ fetch('./data.json')
         console.log(data)
         data.forEach(element => {
             const summ = document.createElement('div');
-            summ.innerHTML = `<img src='${element.icon}'><h4>${element.category}</h4><p>${element.score}/100</p>`
+            summ.innerHTML = `<div class= 'summary-left'><img src='${element.icon}'><h4>${element.category}</h4></div><p>${element.score}<span> / 100</span></p>`
             summ.classList.add('summary-each')
             summary.appendChild(summ)
         });
